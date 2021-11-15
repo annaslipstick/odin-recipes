@@ -1,0 +1,32 @@
+#head {
+    text-align: end;
+    background-color: thistle;
+}
+.main {
+    font-size: 30px;
+    text-align: center;
+}
+.foodlist {
+    text-align: center;
+    background-color: turquoise;
+}
+
+#noodle {
+    text-align: end;
+}
+#important {
+    font-size: 300px;
+}
+
+.ingredients {
+    width: auto;
+    float: left;
+    text-align: left;
+    background-color: sandybrown;
+}
+.instructions{
+    float: right;
+    text-align: left;
+    background-color: red;
+    width: 1000px;
+}
