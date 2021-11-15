@@ -1,3 +1,6 @@
+body {
+    width: auto;
+}
 #head {
     text-align: end;
     background-color: thistle;
@@ -18,15 +21,21 @@
     font-size: 300px;
 }
 
+.content {
+    display: flex;
+    justify-content: space-between;
+}
 .ingredients {
-    width: auto;
-    float: left;
-    text-align: left;
+    float: right;
+    flex: 1;
     background-color: sandybrown;
 }
 .instructions{
-    float: right;
-    text-align: left;
+    float: left;
+    flex: 1;
     background-color: red;
-    width: 1000px;
+}
+
+.homepagelink {
+    flex: 0; 
 }
